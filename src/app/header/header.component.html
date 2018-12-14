@@ -1,0 +1,59 @@
+<br><div style = "text-align:center">
+  <img width="1340" height="500" alt="polinema" src="../src/app/img/1.jpg">
+</div><br>
+
+<style>    
+  div.absolute {
+    position: absolute;
+    top: 150px;
+    right: 550px;
+    width: 200px;
+    height: 100px;
+  }
+</style>
+  <div class="absolute">
+    <img width="150" alt="polinema" src="../src/app/img/polinema.png">
+  </div>
+
+<style>
+  div.abs {
+    position: absolute;
+    top: 350px;
+    left: 400px;
+    width: auto;
+    height: auto;
+    color: white;
+    border: 3px solid red;
+  }
+</style>
+  <div class="abs">
+    <h1>&nbsp; POLITEKNIK NEGERI MALANG &nbsp;</h1>
+  </div>
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand">INFORMATICS MANAGEMENT</a>
+      </div>
+      <ul class="nav navbar-nav">
+          <li routerLinkActive="active"><a routerLink="/home">Sejarah</a></li>  
+          <li routerLinkActive="active"><a routerLink="/datas">Data Laporan Akhir</a></li>
+          <li routerLinkActive="active"><a routerLink="/arsip-list">Riwayat Peminjaman</a></li>
+      </ul>
+
+<br>
+  <ul class="nav navbar-nav navbar-right">
+      <li class="dropdown" appDropdown>
+          <button type="button" class="btn btn-danger" margin-right="10%">Manage<span class="caret"></span></button>
+        <ul class="dropdown-menu">
+          <li>
+            <a style="cursor: pointer;" (click)="onSaveData()">Save Data</a>
+          </li>
+          <li>
+            <a style="cursor: pointer;" (click)="onFetchData()">Fetch Data</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</nav>

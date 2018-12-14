@@ -1,0 +1,41 @@
+.footer{
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    color: white;
+    /* text-align: center; */
+ }
+ .ig2{
+     margin-left: 6%;
+  }
+ .ig{
+     margin-left: 5%;
+  }
+  .fb2{
+     margin-left: 30%;
+     margin-top: -4%;
+  }
+  .fb{
+     margin-left: 30%;
+     margin-top: -6%;
+  }
+  .wa2{
+     margin-left: 55%;
+     margin-top: -4.2%;
+  }
+  .wa{
+     margin-left: 54.5%;
+     margin-top: -6%;
+  }
+  .alamat2{
+     margin-left: 75%;
+     margin-top: -4%;
+  }
+  
+  .alamat{
+     margin-left: 75%;
+     margin-top: -6%;
+  }
